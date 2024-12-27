@@ -170,8 +170,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '+1-***-***-***',
       email: 'u***@gmail.com',
       jointNames: '',
-      username: 'u',
-      password: 'u'
+      username: "'Ursina002",
+      password: 'Naef@!3D'
     },
     bank_details: {
       account_type: 'Checking',
@@ -185,20 +185,20 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        transaction_id: "003",
-        dateTime: "December 20 2024",
-        description: "Transfer from Aramco Pension",
-        status: "Success",
+        transaction_id: '003',
+        dateTime: 'December 20 2024',
+        description: 'Transfer from Aramco Pension',
+        status: 'Success',
         amount_usd: 1000000.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "004",
-        dateTime: "December 15 2024",
-        description: "Transfer from Lamco Mortgage",
-        status: "Success",
+        transaction_id: '004',
+        dateTime: 'December 15 2024',
+        description: 'Transfer from Lamco Mortgage',
+        status: 'Success',
         amount_usd: 35000.0,
-        account_no: "****2930",
+        account_no: '****2930'
       },
       {
         transaction_id: '005',
@@ -318,7 +318,7 @@ export const mockAccounts: Account[] = [
         description: 'Walmart',
         status: 'Success',
         amount_usd: -240.0
-      },
+      }
     ]
   }
 ];

@@ -292,7 +292,7 @@ export default function Transfer() {
                         <div className="mt-4">
                           <Link
                             href="/dashboard"
-                            className="flex justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2"
+                            className="flex justify-center rounded-md border border-transparent bg-[#faa61a] text-[#231f20] px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
                           >
                             Go Home
                           </Link>
