@@ -66,7 +66,7 @@ export default function Dashboard() {
           <span className="font-medium text-lg">Welcome, {user.holder.firstName}</span>
         </div>
         <div className="px-[16px] mb-4">
-          {user.bank_details.account_type2 == 'saving_account' ? (
+          {user.bank_details.saving_balance_usd ? (
             <div className="flex flex-col justify-between gap-4 bg-[#004042] text-white p-4 rounded-lg">
               <div className="flex justify-between gap-6">
                 <div className="flex flex-col">
@@ -83,7 +83,7 @@ export default function Dashboard() {
                   </Link>
                 </div>
               </div>
-              <hr className="border border-[#f3525a]" />
+              <hr className="border border-[#8b8b8b]/40" />
               <div className="flex justify-between gap-6">
                 <div className="">
                   <span className="text-[14px] flex items-center gap-1">Saving Balance</span>
